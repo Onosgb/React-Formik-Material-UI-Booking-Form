@@ -26,7 +26,7 @@ const INITIAL_FORM_STATE = {
   arrivalDate: "",
   departureDate: "",
   message: "",
-  termsOfService: "",
+  termsOfService: false,
 };
 
 const FORM_VALIDATION = Yup.object().shape({

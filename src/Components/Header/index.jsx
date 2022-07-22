@@ -1,12 +1,14 @@
 import React from "react";
-import { Grid } from "@mui/material";
+import { Toolbar, AppBar, Typography } from "@mui/material";
 
-export default function Header() {
+const Header = () => {
   return (
-    <Grid maxWidth="md">
-      <div>
-        <h3>Booking form</h3>
-      </div>
-    </Grid>
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6">Demo App</Typography>
+      </Toolbar>
+    </AppBar>
   );
-}
+};
+
+export default Header;
